@@ -1,0 +1,173 @@
+/*===Default CSS Start===*/
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+	border: none;
+	color: #d2fafb;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: arial, helvetica;
+	background-color: darkslategray;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.cursor{
+	cursor: pointer;
+}
+/*===Default CSS End===*/
+
+
+/*===Header CSS Start===*/
+.header {
+	min-height: 70px;
+	background-color: #171A16;
+}
+
+.logo {
+	width: 50%;
+	float: left;
+	padding: 15px 0px 0px 80px;
+}
+
+.logo h1 {
+	font-family: impact;
+	font-style: italic;
+	color: #fbffa8;
+	text-shadow: 8px 8px 8px #562349;
+	letter-spacing: 4px;
+}
+
+.searchBox {
+	width: 50%;
+	float: right;
+	padding: 18px 0px 0px 60px;
+}
+
+.search {
+	width: 400px;
+	padding: 8px 0px;
+	background-color: transparent;
+	font-weight: bold;
+	border: 2px solid #fbffa8;
+}
+
+.btn {
+	padding: 8px;
+	background-color: transparent;
+	font-weight: bold;
+	border: 2px solid #fbffa8;
+}
+
+/*===Header CSS End===*/
+
+
+/*===MainSection CSS Start===*/
+.mainSection {
+	min-height: 580px;
+	background-color: rgba(128, 0, 0, .7);
+	background-image: url(../images/1.jpg);
+	background-blend-mode: overlay;
+}
+
+/*===MainLeft CSS Start===*/
+.mainSectionLeft {
+	width: 50%;
+	float: left;
+}
+
+.mainSectionLeft img {
+	width: 45%;
+	border-radius: 2px;
+}
+
+.mainSectionLeft input[type="button"] {
+	width: 45%;
+	border-radius: 2px;
+	padding: 10px;
+	background-color: #512b58;
+	font-weight: 600;
+	box-shadow: 3px 3px 10px 0px black;
+	cursor: pointer;
+}
+
+.mainSectionLeft input[type="button"]:hover {
+	background-color: #2c003e;
+}
+
+.LeftTop,
+.LeftMiddle,
+.LeftFooter {
+	width: 100%;
+	margin: 15px;
+}
+
+.LeftFooter {
+	padding-left: 170px;
+}
+
+/*===MainLeft CSS End===*/
+
+
+/*===MainRight CSS Start===*/
+.mainSectionRight {
+	width: 50%;
+	float: left;
+}
+
+.mainSectionRight ul li {
+	list-style: none;
+	margin: 20px;
+}
+
+.mainSectionRight a {
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-family: cursive, arial;
+	padding: 12px 0px;
+	background-color: #512b58;
+	border-radius: 25px 0px;
+}
+
+.mainSectionRight ul li a:hover {
+	background-color: #2c003e;
+}
+
+/*===MainRight CSS End===*/
+/*===MainSection CSS End===*/
+
+
+/*===Footer CSS Start===*/
+.footer {
+	background-color: #171A16;
+	min-height: 50px;
+}
+
+.footer p {
+	font-style: italic;
+	font-size: 15px;
+	text-align: right;
+	line-height: 50px;
+	padding-right: 5px;
+}
+.footer img{
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+}
+.footerLeft{
+	width: 60%;
+	float: left;
+}
+.footerRight{
+	width: 40%;
+	float: left;
+}
+/*===Footer CSS End===*/
